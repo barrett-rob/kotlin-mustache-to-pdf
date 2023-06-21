@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
 </head>
 <body>
 {{ id }} : {{ name }} ({{ status }})
@@ -8,6 +10,7 @@
     {{#items}}
         <tr>
             <td>{{channel}}</td><td>{{mediaFormat}}</td><td>{{budget}}</td>
+            <td class="right"><img class="logo" src="logo.png" alt="logo" /></td>
         </tr>
     {{/items}}
 </table>

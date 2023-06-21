@@ -19,4 +19,5 @@ dependencies {
     implementation("com.github.spullara.mustache.java:compiler:0.9.10")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2")
     implementation("org.xhtmlrenderer:flying-saucer-pdf:9.1.22")
+    implementation("net.sf.jtidy:jtidy:r938")
 }
