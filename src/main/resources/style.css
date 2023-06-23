@@ -1,118 +1,188 @@
 body {
-    font-family: sans-serif;
-    font-size: 12px;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
-table, th, td {
-  border: 1px solid black;
+.separator {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #bfc8cc;
+  border-width: 0.5px;
+}
+
+.divider {
+  color: #bfc8cc;
+  border-width: 0.5px;
 }
 
 @page {
-
-    @bottom-left {
-        content: element(footer);
-        vertical-align: top;
-        padding-top: 10px;
-    }
-
-    @top-right {
-        content: element(header);
-        vertical-align: bottom;
-        padding-bottom: 10px;
-    }
-
-    margin-top: 3.3cm;
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-bottom: 3.3cm;
-
-    size: A4 portrait;
+  @bottom-left {
+    content: element(footer);
+    vertical-align: top;
+    padding-top: 10px;
+  }
+  @top-right {
+    content: element(header);
+    vertical-align: bottom;
+    padding-bottom: 10px;
+  }
+  margin-top: 5cm;
+  margin-bottom: 2cm;
+  size: A4 landscape;
 }
-
 div.header {
-    position: running(header);
+  position: running(header);
 }
 
 div.footer {
-    display: block;
-    margin-top: 0.5cm;
-    position: running(footer);
+  display: block;
+  margin-top: 0.5cm;
+  position: running(footer);
 }
-
 #pagenumber:before {
-    content: counter(page);
+  content: counter(page);
 }
-
 #pagecount:before {
-    content: counter(pages);
-}
-
-.logo-container {
-    text-align: right;
+  content: counter(pages);
 }
 
 .page-count {
-    text-align: right;
+  text-align: center;
 }
-
-.logo {
-    width: 275px;
-}
-
-h1 {
-    font-size: 18px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
-p {
-    font-size: 12px;
-}
-
 .footer {
-    text-align: center;
+  text-align: center;
 }
-
-@font-face {
-    font-family: "Bar-Code 39";
-    src: url(Code39.ttf) format('truetype');
-}
-
-.barcode {
-    font-family: "Bar-Code 39";
-    font-size: 26px;
-}
-
 .right {
-    text-align: right;
+  text-align: right;
 }
-
 .left {
-    text-align: left;
+  text-align: left;
 }
-
 .bottom {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
-
-.address-block {
-    height: 100px;
+.header-block {
+  height: 100px;
 }
-
 table {
-    width: 100%;
-}
-
-hr {
-    background-color: #000000;
-    border: dashed #000000 0.5px;
-    height: 1px;
+  width: 100%;
 }
 
 .page-break {
-    page-break-after: always;
+  page-break-after: always;
+}
+.next-page {
+  page-break-before: always;
+}
+/* This is my css */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+.logo {
+  width: 180px;
+  height: 50px;
+}
+.title {
+  margin-top: 10px;
+  font-weight: normal;
+}
+.name {
+  font-size: 12px;
 }
 
-.next-page {
-    page-break-before: always
+.header-details {
+  margin-top: 10px;
+  border: 1px solid #bfc8cc;
+  padding: 10px;
+  border-radius: 8px;
 }
+.item-heading {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.line-item {
+  border: 1px solid #bfc8cc;
+  border-radius: 8px;
+  border-spacing: 0;
+}
+.line-item td,
+.line-item th {
+  padding: 16px;
+}
+.line-item th,
+.line-item td {
+  border-bottom: 1px solid #bfc8cc;
+}
+.line-item td {
+  border-bottom: 1px solid #bfc8cc;
+}
+
+.line-item td {
+  border-right: 1px solid #bfc8cc;
+}
+.line-item th {
+  border-bottom: 1px solid #bfc8cc;
+}
+
+.line-item th {
+  border-right: 1px solid #bfc8cc;
+}
+.line-item tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.width22 {
+  width: 22%;
+}
+
+.line-item .border-right-none {
+  border-right: none;
+}
+
+.width16 {
+  width: 16%;
+}
+
+.declaration {
+  margin-top: 15px;
+}
+
+.signature{
+    margin-top: 25px;
+}
+
+.margin-top10{
+    margin-top: 10px;
+}
+
+.total{
+    margin-top: 25px;
+    text-align: right;
+    display: table;
+    float: right;
+}
+
+.total > div {
+  display: table-row;
+}
+
+.total-title{
+    display: inline-block;
+    padding: 10px;
+}
+
+.total-value {
+    display: table-cell;
+    border: 1px solid #BFC8CC;
+}
+
+.total-value .no-border {
+     border-bottom: none
+ }
+

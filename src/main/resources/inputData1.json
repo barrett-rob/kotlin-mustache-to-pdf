@@ -1,0 +1,367 @@
+{
+  "id": "WOW20002426",
+  "status": "In draft",
+  "name": "WOW20002426 Bushells June - August Activity 2023",
+  "advertiser": "Stuart Alexander & Co Pty Ltd",
+  "brand": "Bushells",
+  "objective": "Acquire New Customers ",
+  "headerCommercialCategory": null,
+  "contact": "Contact",
+  "primaryContact": "Natalie Schuster",
+  "primaryContactEmail": "noreply@example.com",
+  "gstExempt": false,
+  "isAgencyCommissionable": false,
+  "proposedBudget": 100000,
+  "proposedStartDate": "2023-01-18",
+  "proposedEndDate": "2023-01-24",
+  "budget": 12000.00,
+  "startDate": "2023-06-15",
+  "endDate": "2023-08-31",
+  "items": [
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    },
+    {
+      "id": "IV7N04",
+      "channel": "YouTube",
+      "mediaFormat": "15 Sec YouTube Select Non-Skip",
+      "budget": 1000.00,
+      "startDate": "2023-06-15",
+      "endDate": "2023-08-31",
+      "audienceSegments": [
+        {
+          "segmentId": "segment-id",
+          "segmentName": "Segment name",
+          "segmentSizeTotal": 4100993,
+          "segmentSizeYoutube": 1200000,
+          "active": true,
+          "standard": "Standard",
+          "segmentType": "Segment type",
+          "category": "Category",
+          "subCategory": "Subcategory",
+          "segmentSource": "Segment source"
+        }
+      ],
+      "skus": "123456,9876543"
+    }
+  ]
+}
