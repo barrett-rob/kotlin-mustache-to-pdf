@@ -67,6 +67,7 @@ div.footer {
 table {
   -fs-table-paginate: paginate;
   border-spacing: 0;
+  width: 100%;
 }
 
 .page-break {
@@ -170,10 +171,6 @@ p {
     text-align: right;
 }
 
-.total > div {
- /* display: table-row;*/
-}
-
 .total-title{
     display: inline-block;
     padding: 10px;
@@ -187,11 +184,20 @@ p {
 }
 
 .no-border-bottom {
-     border-bottom: none;
+    border-bottom: none;
  }
 
  .rate-card{
     width: 600px;
+ }
+
+ .bold{
+    font-weight: bold;
+ }
+
+ .left-align{
+     margin-right: 20px;
+     text-align: left;
  }
 
 
