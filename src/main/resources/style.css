@@ -66,6 +66,8 @@ div.footer {
 }
 table {
   width: 100%;
+  -fs-table-paginate: paginate;
+  border-spacing: 0;
 }
 
 .page-break {
@@ -108,8 +110,8 @@ p {
 
 .line-item {
   border: 1px solid #bfc8cc;
-  border-radius: 8px;
   border-spacing: 0;
+  border-radius: 8px;
 }
 .line-item td,
 .line-item th {
@@ -164,8 +166,7 @@ p {
 .total{
     margin-top: 25px;
     text-align: right;
-    display: table;
-    float: right;
+    position: table;
 }
 
 .total > div {
@@ -174,7 +175,7 @@ p {
 
 .total-title{
     display: inline-block;
-    padding: 10px;
+    padding: 10px;`
 }
 
 .total-value {
@@ -182,7 +183,8 @@ p {
     border: 1px solid #BFC8CC;
 }
 
-.total-value .no-border {
-     border-bottom: none
+.no-border-bottom {
+     border-bottom: none;
  }
+
 
