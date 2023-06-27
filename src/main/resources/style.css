@@ -75,6 +75,7 @@ table {
 }
 .next-page {
   page-break-before: always;
+
 }
 /* This is my css */
 h1,
@@ -164,23 +165,24 @@ p {
 }
 
 .total{
-  /*  margin-top: 25px;
-    text-align: right;
-    position: table;*/
     margin-top: 25px;
-    text-align: right;
+    display: table;
+    float: right;
+}
+
+.total > div {
+  display: table-row;
 }
 
 .total-title{
     display: inline-block;
     padding: 10px;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .total-value {
-   width: 120px;
-   border: 1px solid #BFC8CC;
+    display: table-cell;
+    border: 1px solid #BFC8CC;
+    text-align: right;
 }
 
 .no-border-bottom {
@@ -195,9 +197,9 @@ p {
     font-weight: bold;
  }
 
- .left-align{
-     margin-right: 20px;
-     text-align: left;
+ .page-break-clear {
+   float:none;
+   clear: both;
  }
 
 

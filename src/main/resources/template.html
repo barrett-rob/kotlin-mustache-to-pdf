@@ -6,198 +6,198 @@
 </head>
 <body>
 <div>
-        <div class="header" th:include="header::header"></div>
-        <div class='footer' th:include="footer::footer"></div>
+    <div class="header" th:include="header::header"></div>
+    <div class='footer' th:include="footer::footer"></div>
     <div>
-        <h3>Booking Details</h3>
-        <div class="header-details">
-            <table>
+        <div>
+            <h3>Booking Details</h3>
+            <div class="header-details">
+                <table>
+                    <tr>
+                        <td class="bottom width16"> Advertiser </td>
+                        <td class="bottom"> [[${data.advertiser}]] </td>
+                    </tr>
+                    <tr>
+                        <td class="bottom width16"> Primary contact </td>
+                        <td class="bottom"> [[${data.primaryContact}]] </td>
+                    </tr>
+                    <tr>
+                        <td class="bottom width16"> Brand </td>
+                        <td class="bottom"> [[${data.brand}]] </td>
+                    </tr>
+                    <tr>
+                        <td class="bottom width16"> Objectives </td>
+                        <td class="bottom"> [[${data.objective}]] </td>
+                    </tr>
+                </table>
+            </div>
+            <h3 class="item-heading">Line Items</h3>
+            <table class="line-item">
+                <thead>
                 <tr>
-                    <td class="bottom width16"> Advertiser </td>
-                    <td class="bottom"> [[${data.advertiser}]] </td>
+                    <th>Channel</th>
+                    <th class="width16">Media Format</th>
+                    <th class="width22">Audience</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Cost Type</th>
+                    <th>Quantity</th>
+                    <th>Rate</th>
+                    <th class="border-right-none">Net Media</th>
                 </tr>
-                <tr>
-                    <td class="bottom width16"> Primary contact </td>
-                    <td class="bottom"> [[${data.primaryContact}]] </td>
+                </thead>
+                <tbody>
+                <tr th:each="item: ${data.items}">
+                    <td> [[${item.channel}]] </td>
+                    <td class="width16"> [[${item.mediaFormat}]] </td>
+                    <td class="width22"> Hot Tea Light and Lapsed Buyers, Hot Tea Light Buyers, Hot Tea Top Buyers </td>
+                    <td> [[${item.startDate}]] </td>
+                    <td> [[${item.endDate}]] </td>
+                    <td> CPM </td>
+                    <td> 746,666 </td>
+                    <td> $30.00 </td>
+                    <td class="border-right-none"> $22,400.00 </td>
                 </tr>
-                <tr>
-                    <td class="bottom width16"> Brand </td>
-                    <td class="bottom"> [[${data.brand}]] </td>
-                </tr>
-                <tr>
-                    <td class="bottom width16"> Objectives </td>
-                    <td class="bottom"> [[${data.objective}]] </td>
-                </tr>
+                </tbody>
             </table>
-        </div>
-        <h3 class="item-heading">Line Items</h3>
-        <table class="line-item">
-            <thead>
-            <tr>
-                <th>Channel</th>
-                <th class="width16">Media Format</th>
-                <th class="width22">Audience</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-                <th>Cost Type</th>
-                <th>Quantity</th>
-                <th>Rate</th>
-                <th class="border-right-none">Net Media</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="item: ${data.items}">
-                <td> [[${item.channel}]] </td>
-                <td class="width16"> [[${item.mediaFormat}]] </td>
-                <td class="width22"> Hot Tea Light and Lapsed Buyers, Hot Tea Light Buyers, Hot Tea Top Buyers </td>
-                <td> [[${item.startDate}]] </td>
-                <td> [[${item.endDate}]] </td>
-                <td> CPM </td>
-                <td> 746,666 </td>
-                <td> $30.00 </td>
-                <td class="border-right-none"> $22,400.00 </td>
-            </tr>
-            </tbody>
-        </table>
-
             <div class="total">
                 <div>
-                    <div class="total-title left-align">Net Media</div>
+                    <div class="total-title">Net Media</div>
                     <div class="total-title total-value no-border-bottom">$22,400.00</div>
                 </div>
                 <div>
-                    <div class="total-title left-align">Management Fee</div>
+                    <div class="total-title">Management Fee</div>
                     <div class="total-title total-value no-border-bottom">$5,6000.00</div>
                 </div>
                 <div>
-                    <div class="total-title left-align">Total (ex. GST)</div>
-                    <div class="total-title total-value no-border-bottom">$28,000.00</div>
+                    <div class="total-title">Total (ex. GST)</div>
+                    <div class="total-title total-value no-border-bottom">$28,0000000000.00</div>
                 </div>
                 <div>
-                    <div class="total-title left-align bold">GST</div>
+                    <div class="total-title bold">GST</div>
                     <div class="total-title total-value bold">$2,800.00</div>
                 </div>
             </div>
         </div>
-
-    <div class="next-page">
-        <h3>Additional information</h3>
-        <h4 class="item-heading"> Rate breakdown </h4>
-        <table class="line-item rate-card">
-            <thead>
-            <tr>
-                <th></th>
-                <th class="width16">Media Format</th>
-                <th class="width22">Base rate</th>
-                <th>Loading</th>
-                <th class="border-right-none">Rate</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
-                <td> $22.00 </td>
-                <td> $8.00 </td>
-                <td class="border-right-none"> $30.00 </td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div>
-    <div class="next-page">
-        <p class="declaration">Please confirm by electronic signature that the details in this Order Confirmation are correct (“Confirmation”). Your booking will not be processed until we receive this signed Confirmation within 5 business days of the date this Confirmation was issued. By signing the Confirmation or paying the Sales Price (whichever occurs first) you agree that this Confirmation is made pursuant to and as part of the Terms and Conditions agreed between you and Cartology. </p>
-        <div class="signature">
-            <h4 class="margin-top10">Signature:</h4>
-            <h4 class="margin-top10">Name (Print):</h4>
-            <h4 class="margin-top10">Title:</h4>
-            <h4 class="margin-top10">Effective Date:</h4>
+        <div class="page-break-clear">
+            <div class="next-page">
+                <h3>Additional information</h3>
+                <h4 class="item-heading"> Rate breakdown </h4>
+                <table class="line-item rate-card">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th class="width16">Media Format</th>
+                        <th class="width22">Base rate</th>
+                        <th>Loading</th>
+                        <th class="border-right-none">Rate</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    <tr>
+                        <td> 1 </td>
+                        <td class="width22"> 15 Sec YouTube Select Non-Skip </td>
+                        <td> $22.00 </td>
+                        <td> $8.00 </td>
+                        <td class="border-right-none"> $30.00 </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="next-page">
+            <p class="declaration">Please confirm by electronic signature that the details in this Order Confirmation are correct (“Confirmation”). Your booking will not be processed until we receive this signed Confirmation within 5 business days of the date this Confirmation was issued. By signing the Confirmation or paying the Sales Price (whichever occurs first) you agree that this Confirmation is made pursuant to and as part of the Terms and Conditions agreed between you and Cartology. </p>
+            <div class="signature">
+                <h4 class="margin-top10">Signature:</h4>
+                <h4 class="margin-top10">Name (Print):</h4>
+                <h4 class="margin-top10">Title:</h4>
+                <h4 class="margin-top10">Effective Date:</h4>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
